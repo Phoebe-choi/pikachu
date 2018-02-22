@@ -20,3 +20,24 @@ body{
   overflow: hidden;
   height: 100%;
 }
+.actions{
+  top:0;
+  right: 0;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin:12px;
+}
+.actions>button{
+  border:none;
+  background: #F2F2F2;
+  padding: 4px 6px;
+  margin: 6px;
+  border-radius:2px;
+}
+.actions>button.active{
+  box-shadow: 0 0 3px rgba(0,0,0,0.5);
+}
+.actions>button:focus{
+  outline: none;
+}
